@@ -42,7 +42,10 @@ public class HelloServlet extends HttpServlet {
         out.println("<title>HelloServlet</title>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1>HelloServlet 확인</h1>");
+        out.println("METHOD = " + request.getMethod());
+        for (int i = 0; i < 10; i++) {
+        	out.println("<h1>HelloServlet 확인</h1>");
+        }
         out.println("</body>");
         out.println("</html>");
 	}

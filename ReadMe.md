@@ -40,7 +40,7 @@
 4. JSP 설정
 	- mvnrepository.com >> search : tomcat jasper
 	- build.gradle dependency : 
-		compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'
+		providedRuntime group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'
 	- Eclipse -> Gradle Refresh
 	- notepad src/main/webapp/Hello.jsp
 	- gradle bootrun
@@ -56,6 +56,13 @@
 	- gradle bootrun
 	- http://localhost:8080/HelloServlet
 	
+6. SpringLoaded 설정(리로드 기능)
+	- mvnrepository.com >> search: springloaded
+	- build.gradle 설정 :
+		classpath("org.springframework:springloaded:1.2.6.RELEASE")
+		compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
+	- Eclipse Output Directory 변경
+		bin -> build/classes/main
 	
 	
 	
