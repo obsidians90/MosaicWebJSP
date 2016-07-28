@@ -37,6 +37,13 @@
 	- gradle bootrun
 	- http://localhost:8080/Hello.html
 	
+4. JSP 설정
+	- mvnrepository.com >> search : tomcat jasper
+	- build.gradle dependency : 
+		compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.4'
+	- notepad src/main/webapp/Hello.jsp
+	- gradle bootrun
+	- http:/localhost:8080/Hello.jsp
 	
 	
 	
