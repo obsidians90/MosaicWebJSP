@@ -29,3 +29,24 @@
 		- >> git clone https://github.com/obsidians90/MosaicWeb.git
 		- >> git clone https://github.com/obsidians90/MosaicWeb.git MosaicWebDev
 		- >> Eclipse Gradle Import
+		
+3. HTML 설정
+	- 설정 불필요.
+	- mkdir src/main/webapp 폴더 생성
+	- notepad src/main/webapp/Hello.html
+	- gradle bootrun
+	- http://localhost:8080/Hello.html
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
