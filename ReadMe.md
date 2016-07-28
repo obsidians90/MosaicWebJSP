@@ -23,7 +23,7 @@
 	- Local ==> Remote push(최초 동기화)
 		- >> git remote -v
 		- >> git remote remove origin
-		- >> git remote add origin https://github.com/webprotols/MosaicWeb.git
+		- >> git remote add origin https://github.com/obsidians90/MosaicWeb.git
 		- >> git push -u origin master
 	
 	
