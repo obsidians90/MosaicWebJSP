@@ -11,6 +11,7 @@
 
    - Remote Repository 생성 (github)
    - Local Repository 생성
+   
       >> git status
       >> git log   	
       >> dir /A > .gitignore
@@ -19,8 +20,9 @@
       >> git add *
       >> git commit -m "first commit" 
    - Local ====push===> Remote (최초 동기화)
-   	  >> git remove -v
-   	  >> git remote remove origin
-      >> git remote add origin https://github.com/obsidians90/MosaicWeb.git
+   
+      >> git remove -v
+      >> git remote remove origin
+      >> git remote add origin https://github.com/obsidians90/MosaicWeb.git >> git push -u origin master
       >> git push -u origin master
    
