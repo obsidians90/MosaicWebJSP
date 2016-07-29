@@ -82,6 +82,7 @@
 	- http://localhost/MosaicWeb/index.html
 	
 9. Gluon 설정
-	-
+	- cp FXTemplate/src/* MosaicWeb/src
+	- merge FXTemplate/build.gradle MosaicWeb/build.gradle
 	
 	
