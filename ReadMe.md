@@ -63,10 +63,15 @@
 		compile group: 'org.springframework', name: 'springloaded', version: '1.2.6.RELEASE'
 	- Eclipse Output Directory 변경
 		bin -> build/classes/main
-	
-	
-	
-	
+
+7. Mybatis 설정
+	- mvnrepository.com >> search: Mybatis Spring Boot Starter
+	- build.gradle dependency : 
+			compile group: 'org.mybatis.spring.boot', name: 'mybatis-spring-boot-starter', version: '1.1.1'
+	- Eclipse Gradle Refresh
+	- gradle bootrun
+	- notepad src/main/java/com/hybrid/mapper/DeptMapper.java (인터페이스)
+	- notepad src/main/java/com/hybrid/mapper/DeptDao.java (클래스)
 	
 	
 	
