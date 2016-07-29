@@ -84,5 +84,9 @@
 9. Gluon 설정
 	- cp FXTemplate/src/* MosaicWeb/src
 	- merge FXTemplate/build.gradle MosaicWeb/build.gradle
+	- merge com.hybrid.fx.MainApplication com.hybrid.MosaicWebApplication
+		->> spring boot + gluon start
+		->> spring boot + gluon stop
+		->> PrimaryView에 WebView 추가
 	
 	
