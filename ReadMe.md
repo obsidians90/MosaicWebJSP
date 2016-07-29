@@ -75,7 +75,13 @@
 	- notepad src/test/java/com/hybrid/mapper/DeptMapperTest.java
 	- notepad src/main/webapp/Dept.jsp
 	
+8. Deploy 방법
+	- gradle war
+	- build/libs/MosaicWeb*.war
+	- cp MosaicWeb.war C:\Program Files\Apache Software Foundation\Tomcat 8.5\webapps
+	- http://localhost/MosaicWeb/index.html
 	
-	
+9. Gluon 설정
+	-
 	
 	
