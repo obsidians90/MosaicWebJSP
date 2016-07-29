@@ -19,6 +19,10 @@ apply plugin: 'java'
 apply plugin: 'eclipse-wtp'
 apply plugin: 'spring-boot'
 apply plugin: 'war'
+		/*
+		 *	5. plugin 설정
+		 */
+apply plugin: 'application'
 
 
 war {
