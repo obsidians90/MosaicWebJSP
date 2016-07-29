@@ -71,7 +71,9 @@
 	- Eclipse Gradle Refresh
 	- gradle bootrun
 	- notepad src/main/java/com/hybrid/mapper/DeptMapper.java (인터페이스)
-	- notepad src/main/java/com/hybrid/mapper/DeptDao.java (클래스)
+	- notepad src/main/java/com/hybrid/domain/Dept.java (클래스)
+	- notepad src/test/java/com/hybrid/mapper/DeptMapperTest.java
+	- notepad src/main/webapp/Dept.jsp
 	
 	
 	
