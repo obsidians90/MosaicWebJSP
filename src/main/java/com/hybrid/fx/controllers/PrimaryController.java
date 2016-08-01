@@ -37,7 +37,6 @@ public class PrimaryController {
     public void initialize() {
         ActionMap.register(this);
         actionSignin =  ActionMap.action("signin");
-        button.setOnAction(e -> viewManager.switchView("secondary"));
        WebEngine engine = myweb.getEngine();
        engine.load("http://localhost:8080/");
        home.setOnAction(e -> {
@@ -78,7 +77,6 @@ public class PrimaryController {
     }
     
     public void addUser(String userName) {
-        label.setText(resources.getString("label.text") + (userName.isEmpty() ? "" :  ", " + userName) + "!");
         stateManager.setProperty("UserName", userName);
     }
 
