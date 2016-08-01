@@ -34,6 +34,7 @@ public class PrimaryController {
     private ResourceBundle resources;
     private Action actionSignin;
 	@FXML private ProgressBar progress;
+	String back;
     public void initialize() {
         ActionMap.register(this);
         actionSignin =  ActionMap.action("signin");
