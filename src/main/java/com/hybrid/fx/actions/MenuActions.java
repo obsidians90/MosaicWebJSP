@@ -18,8 +18,9 @@ public class MenuActions {
 
     @ActionProxy(text="Exit", accelerator="alt+F4")
     private void exit() {
-    	MainApplication.close();
-        app.exit();
+		System.out.println("Spring Close");
+		MainApplication.ctx.close();
+		app.exit();
     }
     
     @ActionProxy(text="About")
