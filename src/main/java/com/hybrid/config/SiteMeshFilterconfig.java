@@ -9,6 +9,7 @@ public class SiteMeshFilterconfig extends ConfigurableSiteMeshFilter {
 	@Override
 	protected void applyCustomConfiguration(SiteMeshFilterBuilder builder) {
 		builder.addDecoratorPath("/deco/*", "/WEB-INF/deco/maindeco.jsp");
+		builder.addDecoratorPath("/deco2/*", "/WEB-INF/deco/maindeco2.jsp");
 	}
 	@Bean
 	FilterRegistrationBean siteMesh() {
