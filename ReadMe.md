@@ -92,5 +92,16 @@
 	- mvnrepository.com >> search: sitemesh
 	- build.gradle dependencies 추가
 	- builder.addDecoratorPath("/deco", "/WEB-INF/deco/maindeco.jsp");
+11. Spring Security 설정
+	- mvnrepository.com >> search: spring boot security
+	- build.gradle dependencies 추가
+		->> 
+	
+	
+	
+	
+	
+	
+	
 	
 	

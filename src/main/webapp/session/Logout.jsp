@@ -4,14 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Logout.jsp</title>
+<title>logout.jsp</title>
 </head>
 <body>
 	<%
-		Cookie c = new Cookie("LOGIN", "success");
-		c.setPath("/cookie");
-		c.setMaxAge(0);
-		response.addCookie(c);
+		session.invalidate();
 		response.sendRedirect("/");
 	%>
 </body>
