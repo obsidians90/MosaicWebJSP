@@ -13,7 +13,8 @@
 		<li><a href = "Hello.html">HTML 확인</a></li>
 		<li><a href = "Hello.jsp">JSP 확인</a></li>
 		<li><a href = "HelloServlet">Servlet 확인</a></li>
-		<li><a href = "Dept.jsp">Mybatis 확인</a></li>
+		<li><a href = "Dept.jsp">Mybatis Dept 확인</a></li>
+		<li><a href = "Emp.jsp">Mybatis Emp 확인</a></li>
 		<li><a href = "cookie/Dept.jsp">Cookie 로그인</a></li>
 		<li><a href = "session/Dept.jsp">Session 로그인</a></li>
 		<li><a href = "logout.jsp">로그아웃</a></li>
