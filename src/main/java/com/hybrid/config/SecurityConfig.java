@@ -16,6 +16,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		http.authorizeRequests()
 		.antMatchers("/index.jsp").permitAll()
 		.antMatchers("/Dept.jsp").hasRole("ADMIN")
+		.antMatchers("/Emp.jsp").hasRole("ADMIN")
 		.antMatchers("/cookie/**").hasRole("ADMIN")
 		.antMatchers("/session/**").hasRole("ADMIN")
 		.and()
